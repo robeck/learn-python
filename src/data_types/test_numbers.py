@@ -43,7 +43,7 @@ def test_booleans():
     assert true_boolean
     assert not false_boolean
 
-    assert isinstance(true_boolean, bool)
+    assert isinstance(true_boolean, bool) #isinstance() check the type of variable
     assert isinstance(false_boolean, bool)
 
     # Let's try to cast boolean to string.
